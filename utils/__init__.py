@@ -1,10 +1,6 @@
 import re
 # e_signs = ':;,.!?[]()<>""\'\'`'
-# c_signs = '：；，。！？【】（）《》“”‘’·'
-e_signs = ':;,.!?[]()<>""\'\'`'
-c_signs = '：；，。！？【】（）《》“”‘’·'
-c2e_table = {c:e for e,c in zip(e_signs,c_signs)}
-e2c_table = {e:c for e,c in zip(e_signs,c_signs)}
+ 
 
 def escape_regex(str: str) -> str:
     """ 为了兼容正则，转义所有字符 """
@@ -118,7 +114,7 @@ def filter_duplicate_blank(content: str) -> str:
     """ 去除多余的空白字符
 
     中文：后方向找到空格将其删除
-    英文：后方跳过一个空格，将其后多余的删除；如果
+    英文：后方跳过一个空格，将其后多余的删除；
     """
     j = 0
     str_list = list(content)

@@ -158,9 +158,14 @@ class KeyMonitor(Thread):
 
 print(
     """
-=============Filter PDF Copy=============
+=============Filter PDF Copy v2.1=============
 
-欢迎加入QQ群：451316705
+
+* 欢迎加入QQ群交流：655693494
+* 作者QQ: 1078797512
+* 项目Github: https://github.com/breath57/filter_pdf_copy
+* 项目Gitee: https://gitee.com/breath57/filter_pdf_copy
+希望能够得到您的start支持
 
 主要功能：
 1. PDF内容和网页上复制的文本，可自动过滤冗余换行符。
